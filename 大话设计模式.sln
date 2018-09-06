@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单例模式2", "单例模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单例模式3", "单例模式3\单例模式3.csproj", "{5F35EE71-4C46-4B5E-BAF1-E94913B5021B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "桥接模式", "桥接模式\桥接模式.csproj", "{1A6EE470-5D6E-43F1-B9B7-7A80FF767420}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{5F35EE71-4C46-4B5E-BAF1-E94913B5021B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F35EE71-4C46-4B5E-BAF1-E94913B5021B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F35EE71-4C46-4B5E-BAF1-E94913B5021B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6EE470-5D6E-43F1-B9B7-7A80FF767420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6EE470-5D6E-43F1-B9B7-7A80FF767420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6EE470-5D6E-43F1-B9B7-7A80FF767420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6EE470-5D6E-43F1-B9B7-7A80FF767420}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
