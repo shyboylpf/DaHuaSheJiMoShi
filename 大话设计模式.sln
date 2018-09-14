@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "命令模式1", "命令模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "命令模式2", "命令模式2\命令模式2.csproj", "{F090F7F7-19E7-4BAF-9F0B-74D3037C2342}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "职责链模式", "职责链模式\职责链模式.csproj", "{2378406D-2764-430F-83BA-92DA5082F51E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{F090F7F7-19E7-4BAF-9F0B-74D3037C2342}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F090F7F7-19E7-4BAF-9F0B-74D3037C2342}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F090F7F7-19E7-4BAF-9F0B-74D3037C2342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2378406D-2764-430F-83BA-92DA5082F51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2378406D-2764-430F-83BA-92DA5082F51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2378406D-2764-430F-83BA-92DA5082F51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2378406D-2764-430F-83BA-92DA5082F51E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
