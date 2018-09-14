@@ -33,6 +33,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单例模式3", "单例模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "桥接模式", "桥接模式\桥接模式.csproj", "{1A6EE470-5D6E-43F1-B9B7-7A80FF767420}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "命令模式", "命令模式\命令模式.csproj", "{A341AA28-8AEB-42FE-889A-5531A3EBF92E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "命令模式1", "命令模式1\命令模式1.csproj", "{87677865-9A05-4E99-B148-2664B713F808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "命令模式2", "命令模式2\命令模式2.csproj", "{F090F7F7-19E7-4BAF-9F0B-74D3037C2342}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +105,18 @@ Global
 		{1A6EE470-5D6E-43F1-B9B7-7A80FF767420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A6EE470-5D6E-43F1-B9B7-7A80FF767420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A6EE470-5D6E-43F1-B9B7-7A80FF767420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A341AA28-8AEB-42FE-889A-5531A3EBF92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A341AA28-8AEB-42FE-889A-5531A3EBF92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A341AA28-8AEB-42FE-889A-5531A3EBF92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A341AA28-8AEB-42FE-889A-5531A3EBF92E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87677865-9A05-4E99-B148-2664B713F808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87677865-9A05-4E99-B148-2664B713F808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87677865-9A05-4E99-B148-2664B713F808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87677865-9A05-4E99-B148-2664B713F808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F090F7F7-19E7-4BAF-9F0B-74D3037C2342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F090F7F7-19E7-4BAF-9F0B-74D3037C2342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F090F7F7-19E7-4BAF-9F0B-74D3037C2342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F090F7F7-19E7-4BAF-9F0B-74D3037C2342}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
