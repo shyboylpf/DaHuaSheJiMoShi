@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "职责链模式1", "职责�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "中介者模式", "中介者模式\中介者模式.csproj", "{8DCABF77-BE7B-46B7-9170-64E7C3DA812C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "中介者模式1", "中介者模式1\中介者模式1.csproj", "{38982EF8-C021-4BDD-94F2-087A03D282A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{8DCABF77-BE7B-46B7-9170-64E7C3DA812C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DCABF77-BE7B-46B7-9170-64E7C3DA812C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DCABF77-BE7B-46B7-9170-64E7C3DA812C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38982EF8-C021-4BDD-94F2-087A03D282A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38982EF8-C021-4BDD-94F2-087A03D282A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38982EF8-C021-4BDD-94F2-087A03D282A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38982EF8-C021-4BDD-94F2-087A03D282A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -22,13 +22,13 @@ namespace 中介者模式
             colleague2.Send("没有呢 , 你打算请客吗?");
         }
     }
-
+    // 抽象中介者类
     public abstract class Mediator
     {
         public abstract void Send(string message, Colleague colleague);
     }
-
-    public class Colleague
+    // 抽象同事类
+    public abstract class Colleague
     {
         protected Mediator mediator;
         public Colleague(Mediator mediator)
@@ -36,7 +36,7 @@ namespace 中介者模式
             this.mediator = mediator;
         }
     }
-
+    // 中介者
     class ConcreteMediator : Mediator
     {
         private ConcreteColleague1 colleague1;
