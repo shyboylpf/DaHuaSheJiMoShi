@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "享元模式", "享元模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "享元模式1", "享元模式1\享元模式1.csproj", "{6D8C1E8C-64A1-4284-8414-E9773C6DF216}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "享元模式3", "享元模式3\享元模式3.csproj", "{97FE59E7-6952-46C3-BF08-1CB9416853B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{6D8C1E8C-64A1-4284-8414-E9773C6DF216}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D8C1E8C-64A1-4284-8414-E9773C6DF216}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D8C1E8C-64A1-4284-8414-E9773C6DF216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97FE59E7-6952-46C3-BF08-1CB9416853B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97FE59E7-6952-46C3-BF08-1CB9416853B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97FE59E7-6952-46C3-BF08-1CB9416853B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97FE59E7-6952-46C3-BF08-1CB9416853B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
