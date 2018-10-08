@@ -10,18 +10,15 @@ namespace 访问者模式2
     {
         static void Main(string[] args)
         {
-            IList<Person> persons = new List<Person>();
+            ObjectStructure o = new ObjectStructure();
+            o.Attach(new Man());
+            o.Attach(new Woman());
 
-            Person man1 = new Man();
-            man1.Action = "成功";
-            persons.Add(man1);
-            Person woman1 = new Woman();
-            woman1.Action = "成功";
-            persons.Add(woman1);
-            foreach (Person item in persons)
-            {
-                item.GetConclusion();
-            }
+            Success v1 = new Success();
+            o.Display(v1);
+
+            Marriage v2 = new Marriage();
+            o.Display(v2);
         }
     }
     abstract class Action
@@ -45,6 +42,18 @@ namespace 访问者模式2
             Console.WriteLine("{0}{1}时, 背后多半有一个不成功的男人", concreteElementB.GetType().Name, GetType().Name);
         }
     }
+    class Marriage : Action
+    {
+        public override void GetManConclusion(Man concreteElementA)
+        {
+            Console.WriteLine("{0}{1}时, 感慨有期徒刑",concreteElementA.GetType().Name, GetType().Name);
+        }
+
+        public override void GetWomanConclusion(Woman concreteElementB)
+        {
+            Console.WriteLine("{0}{1}时, 婚姻保险保平安", concreteElementB.GetType().Name, GetType().Name);
+        }
+    }
     class Man : Person
     {
         public override void Accept(Action visitor)
@@ -57,6 +66,28 @@ namespace 访问者模式2
         public override void Accept(Action visitor)
         {
             visitor.GetWomanConclusion(this);
+        }
+    }
+    class ObjectStructure
+    {
+        private IList<Person> elements = new List<Person>();
+
+        public void Attach(Person element)
+        {
+            elements.Add(element);
+        }
+
+        public void Detach(Person element)
+        {
+            elements.Remove(element);
+        }
+
+        public void Display(Action visitor)
+        {
+            foreach(Person e in elements)
+            {
+                e.Accept(visitor);
+            }
         }
     }
 }
